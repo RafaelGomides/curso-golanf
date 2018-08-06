@@ -7,12 +7,11 @@ import (
 
 func main() {
 	const PI float64 = 3.1415
-	var raio = 3.2 // Valor inferido pelo compilador
+	var raio = 3.2 // tipo (float64) inferido pelo compilador
 
-	// Forma reduzida de criar var
+	// forma reduzida de criar uma var
 	area := PI * m.Pow(raio, 2)
-
-	fmt.Println("A area da circunferencia é:", area)
+	fmt.Println("A área da circunferência é", area)
 
 	const (
 		a = 1
@@ -24,7 +23,7 @@ func main() {
 		d = 4
 	)
 
-	fmt.Print(a, b, c, d)
+	fmt.Println(a, b, c, d)
 
 	var e, f bool = true, false
 	fmt.Println(e, f)
