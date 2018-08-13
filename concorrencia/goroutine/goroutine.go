@@ -18,6 +18,7 @@ func main() {
 
 	go fale("Maria", "Fale cmg", 500)
 	fale("João", "Não dá", 500)
+	// fmt.Println("Teste")
 
 	// time.Sleep(time.Second * 5)
 	// fmt.Println("Fim")
