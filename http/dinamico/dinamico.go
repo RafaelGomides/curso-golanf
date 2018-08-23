@@ -20,7 +20,6 @@ func horaCerta(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/horaCerta", horaCerta)
-
 	log.Println("Executando")
 	log.Fatal(http.ListenAndServe(":3333", nil))
 }
